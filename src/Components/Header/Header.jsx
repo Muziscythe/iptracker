@@ -9,7 +9,7 @@ function Header(){
 
   const {ipDetail,setIpDetail,setLat,setLon} = useAuth();
   const [ip,setIp] = useState("");
-  const ipify_API = process.env.REACT_APP_IPIFY;
+  const ipify_API = "at_PcuYMNw7UW0ubb2IUEbKHX05I9hbs";
 
   useEffect(()=>{
     console.log(ipDetail?.location);
