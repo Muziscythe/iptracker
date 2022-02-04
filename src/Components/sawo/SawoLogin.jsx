@@ -5,7 +5,7 @@ import Sawo from "sawo"
 
 function SawoLogin(){
   const navigate = useNavigate();
-  const API_KEY = process.env.REACT_APP_API_KEY;
+  const API_KEY = "6829d731-66b8-417a-8826-87848a0e60b5";
   // const {user,setUser} = useAuth();
 
   // const [user,setUser] = useState(false);
