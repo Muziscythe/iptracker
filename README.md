@@ -2,7 +2,6 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -17,12 +16,24 @@ Users can login using SAWO passwordless way, then track the IP address of your n
 
 ### The challenge
 
+    SAWO authentication - theyb provided a easy to follow docs on their website (https://dev.sawolabs.com/)
+    Leaflet with react - Use react-leaflet.js docs.
+    Ipify - quite easy to figure it out.
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
+
+- Live Site URL: [Add live site URL here](https://ip-tracker-muzi.herokuapp.com)
 
 ## My process
+
+    - First design the desktop version.
+    - Make it mobile responsive.
+    - fetch data from Ipify.
+    - Use leaflet to display the location of IP address.
+    - Build login page with SAWO authentication.
+    - Host it online.
 
 ### Built with
 
@@ -33,5 +44,3 @@ Users can login using SAWO passwordless way, then track the IP address of your n
 - Sawo authentication
 - [React](https://reactjs.org/) - JS library
 - [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
