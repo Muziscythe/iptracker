@@ -1,13 +1,26 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.App{
+.App {
   text-align: center;
   font-size: 18px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
-#map { height: 180px; }
+#map {
+  height: 180px;
+}
+
+.routeHome {
+  background-color: gold;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  color: white;
+  font-weight: 700;
+  width: 100px;
+  margin-top: 15px;
+}

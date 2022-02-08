@@ -10,7 +10,7 @@ export const AuthProvider = (props) =>{
   const [ipDetail,setIpDetail] = useState(null);
   const[lat,setLat] = useState(null);
   const[lon,setLon] = useState(null);
-  // const [payload,setPayload] = useState(null);
+  const [payload,setPayload] = useState(null);
   // function userPayload(payload){
   //   return setUser(payload);
   // }
@@ -20,7 +20,9 @@ export const AuthProvider = (props) =>{
     lat,
     lon,
     setLat,
-    setLon
+    setLon,
+    payload,
+    setPayload
   }
   return <AuthContext.Provider value={value}>{props.children}</AuthContext.Provider>
 }

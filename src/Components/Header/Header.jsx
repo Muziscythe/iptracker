@@ -7,7 +7,7 @@ import { useAuth } from "../Context/UserContext";
 
 function Header(){
 
-  const {ipDetail,setIpDetail,setLat,setLon} = useAuth();
+  const {ipDetail,setIpDetail,setLat,setLon,payload} = useAuth();
   const [ip,setIp] = useState("");
   const ipify_API = "at_PcuYMNw7UW0ubb2IUEbKHX05I9hbs";
 
@@ -38,7 +38,7 @@ function Header(){
 // geonameId: 5375480
 
   return <StyledHeader img={bgImg}>
-      <h2>IP Address Tracker</h2>
+      <h2><span>Welcome: </span>{payload? payload.identifier : "IP Address Tracker"}</h2>
       <StyledInput onSubmit={handleSubmit}>
         <input placeholder="Search for any IP address or domain" onChange={(e)=>setIp(e.target.value)} value={ip}/>
         <button type="submit"><img src={iconArrow} alt=""/></button>
